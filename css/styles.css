@@ -73,9 +73,25 @@ table {
 }
 
 ul {  
-  padding-top: 100px;
-  list-style: none;
+    padding-top: 100px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
+#character-list img {
+  width: 250px;
+  height: 250px;
+ 
+}
+
+p {
+ text-align: center;
+
+}
 
 
